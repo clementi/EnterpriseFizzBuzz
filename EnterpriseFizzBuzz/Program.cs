@@ -6,7 +6,7 @@
     {
         public static void Main(string[] args)
         {
-            var fizzBuzz = new FizzBuzz(new IntegerDivisibilityStrategyFactory());
+            var fizzBuzz = new FizzBuzz(new WriterFactory(new IntegerDivisibilityStrategyFactory()));
             fizzBuzz.Execute(100);
         }
     }

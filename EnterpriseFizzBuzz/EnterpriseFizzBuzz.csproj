@@ -38,11 +38,10 @@
   <ItemGroup>
     <Compile Include="Factories\IIntegerDivisibilityStrategyFactory.cs" />
     <Compile Include="Factories\IntegerDivisibilityStrategyFactory.cs" />
+    <Compile Include="Factories\IWriterFactory.cs" />
     <Compile Include="Factories\NoSuchStrategyException.cs" />
     <Compile Include="FizzBuzz.cs" />
-    <Compile Include="IO\IIntegerWriter.cs" />
     <Compile Include="IO\IntegerWriter.cs" />
-    <Compile Include="IO\IStringWriter.cs" />
     <Compile Include="IO\StringWriter.cs" />
     <Compile Include="Strategies\IIntegerDivisibilityStrategy.cs" />
     <Compile Include="Strategies\IntegerDivisibilityByThreeStrategy.cs" />

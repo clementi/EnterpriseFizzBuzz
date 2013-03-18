@@ -1,6 +1,6 @@
 ﻿namespace EnterpriseFizzBuzz.IO
 {
-    public class IntegerWriter : IIntegerWriter
+    public class IntegerWriter : ITextWriter
     {
         private readonly ITextWriter textWriter;
 
@@ -9,9 +9,9 @@
             this.textWriter = textWriter;
         }
 
-        public void Write(int n)
+        public void Write(object obj)
         {
-            this.textWriter.Write(n);
+            this.textWriter.Write(obj);
         }
     }
 }
